@@ -12,6 +12,9 @@ body {
 h1 {
   font-family: "Caveat Brush";
   text-align: center;
+  font-size: 50px;
+  color: #fad744;
+  text-shadow: 2px 2px #2b3252;
 }
 
 .quiz_outer {
@@ -33,13 +36,18 @@ h1 {
 }
 
 .questions .question h2 {
-  font-weight: normal;
+  font-weight: 600;
   font-size: 20px;
 }
 
 .questions .question label {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.questions input {
+  margin-right: 7px;
 }
 
 .button_outer {
@@ -50,7 +58,11 @@ h1 {
   background: #fad744;
   padding: 10px 20px;
   border-radius: 8px;
-  margin-top: 15px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .button_outer button:hover {
@@ -60,10 +72,14 @@ h1 {
 .quiz_score {
   position: absolute;
   background: #fff;
-  padding: 10px;
+  padding: 10px 30px;
   border-radius: 8px;
   left: calc(100% + 10px);
   top: 0;
+}
+
+.quiz_score h2 {
+  font-weight: normal;
 }
 
 .quiz_score p {
