@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Caveat+Brush:regular);
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #54c3ef;
+}
+
+h1 {
+  font-family: "Caveat Brush";
+  text-align: center;
+}
+
+.quiz_outer {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.questions {
+  background: #2b3252;
+  color: #fad744;
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.questions .question {
+  border-bottom: 1px solid #fad744;
+}
+
+.questions .question h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.questions .question label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.button_outer {
+  text-align: center;
+}
+
+.button_outer button {
+  background: #fad744;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.button_outer button:hover {
+  opacity: 0.8;
+}
+
+.quiz_score {
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  left: calc(100% + 10px);
+  top: 0;
+}
+
+.quiz_score p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
