@@ -87,3 +87,13 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 500px) {
+  .questions {
+    margin-top: 200px;
+  }
+  .quiz_score {
+    left: 0;
+    top: -190px;
+  }
+}
